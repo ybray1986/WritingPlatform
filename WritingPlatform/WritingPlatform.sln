@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WritingPlatform.DL", "Writi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WritingPlatform.BL", "WritingPlatform.BL\WritingPlatform.BL.csproj", "{CCE65C15-70DF-493E-963F-14F63D75632D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WritingPlatform.AUTH", "WritingPlatform.AUTH\WritingPlatform.AUTH.csproj", "{8DE6B8AB-ABE5-42A7-BB8C-84844BB13318}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{CCE65C15-70DF-493E-963F-14F63D75632D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CCE65C15-70DF-493E-963F-14F63D75632D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CCE65C15-70DF-493E-963F-14F63D75632D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DE6B8AB-ABE5-42A7-BB8C-84844BB13318}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DE6B8AB-ABE5-42A7-BB8C-84844BB13318}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DE6B8AB-ABE5-42A7-BB8C-84844BB13318}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DE6B8AB-ABE5-42A7-BB8C-84844BB13318}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
