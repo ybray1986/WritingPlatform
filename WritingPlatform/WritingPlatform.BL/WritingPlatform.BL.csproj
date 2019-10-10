@@ -40,7 +40,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DataTransferObjects\CompositionDTO.cs" />
+    <Compile Include="DataTransferObjects\MessageDTO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\WritingPlatform.AUTH\WritingPlatform.AUTH.csproj">
+      <Project>{8de6b8ab-abe5-42a7-bb8c-84844bb13318}</Project>
+      <Name>WritingPlatform.AUTH</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WritingPlatform.DL\WritingPlatform.DL.csproj">
+      <Project>{1d092124-29c3-4b5e-95e2-47ad15db37b6}</Project>
+      <Name>WritingPlatform.DL</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -27,7 +27,6 @@
         public virtual DbSet<Composition> Compositions { get; set; }
         public virtual DbSet<Genre> Genres { get; set; }
         public virtual DbSet<Message> Messages { get; set; }
-        public virtual DbSet<User> Users { get; set; }
 
     }
 

@@ -246,6 +246,16 @@
     <None Include="Project_Readme.html" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WritingPlatform.AUTH\WritingPlatform.AUTH.csproj">
+      <Project>{8de6b8ab-abe5-42a7-bb8c-84844bb13318}</Project>
+      <Name>WritingPlatform.AUTH</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WritingPlatform.BL\WritingPlatform.BL.csproj">
+      <Project>{cce65c15-70df-493e-963f-14f63d75632d}</Project>
+      <Name>WritingPlatform.BL</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

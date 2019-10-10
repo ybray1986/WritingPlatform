@@ -54,7 +54,6 @@
     <Compile Include="Entity\Composition.cs" />
     <Compile Include="Entity\Genre.cs" />
     <Compile Include="Entity\Message.cs" />
-    <Compile Include="Entity\User.cs" />
     <Compile Include="Entity\WPContent.cs" />
     <Compile Include="Migrations\201910031311144_WritingPlatformMigration.cs" />
     <Compile Include="Migrations\201910031311144_WritingPlatformMigration.Designer.cs">
